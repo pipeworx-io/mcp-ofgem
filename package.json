@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-ofgem",
+  "version": "0.1.0",
+  "description": "Ofgem energy data: the UK energy regulator's published statistics on the domestic price cap and what it is made of, wholesale gas and electricity prices, supplier market shares, switching, debt and customer service — as tabular rows, not pictures.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-ofgem": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "ofgem"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-ofgem.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-3592bdb363785e752b710bcb3fba567f1488291a6e8254bb6fde68deac19c800",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+  }
+}
